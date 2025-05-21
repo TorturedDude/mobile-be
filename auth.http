@@ -11,11 +11,11 @@ POST http://localhost:8000/auth/sign-up
 Content-Type: application/json
 
 {
-  "firstName": "artem",
-  "lastName": "golovanov",
-  "username": "test",
-  "password": "test",
-  "email": "test@test.ru"
+  "firstName": "a",
+  "lastName": "a",
+  "username": "xxxx",
+  "password": "xxxxx",
+  "email": "artem110902@yandex.ru"
 }
 
 ###
@@ -25,3 +25,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpZCI6MiwiZW1haWwiOiJ0ZXN0QHRlc3Quc
 ###
 GET http://localhost:8000/api/course
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpZCI6MiwiZW1haWwiOiJ0ZXN0QHRlc3QucnUiLCJyb2xlcyI6IlJPTEVfVVNFUiIsInN1YiI6InRlc3QiLCJpYXQiOjE3NDY4NzU5MzIsImV4cCI6MTc0NzAxOTkzMn0.8O8q4nTfBujZasrr3j3CtTni6kyrJRKizPOFcsIAXMc
+
+###
+POST http://localhost:8000/api/payments/send
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpZCI6MTAsImVtYWlsIjoiYXJ0ZW0xMTA5MDJAeWFuZGV4LnJ1Iiwicm9sZXMiOiJST0xFX1VTRVIiLCJzdWIiOiJ4eHh4IiwiaWF0IjoxNzQ3ODM1MzIyLCJleHAiOjE3NDc5NzkzMjJ9.eM-KjqbBlCqf63svXfce5lwJUWSy7Ippx653HSYbW4Y
